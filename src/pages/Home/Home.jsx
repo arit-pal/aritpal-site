@@ -19,9 +19,14 @@ const Home = () => {
                     <p className="main-subheadline">
                         I architect robust, scalable systems that power dynamic applications. With a strong focus on Go and PostgreSQL, I build the high-performance engines that drive the modern web.
                     </p>
-                    <Link to="/about" className="cta-button">
-                        Learn More About Me
-                    </Link>
+                    <div className="cta-group">
+                        <Link to="/about" className="cta-button">
+                            Learn More About Me
+                        </Link>
+                        <Link to="/connect" className="cta-button-secondary">
+                            Let's Connect
+                        </Link>
+                    </div>
                 </div>
             </main>
 
