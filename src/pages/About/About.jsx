@@ -13,16 +13,16 @@ const About = () => {
                 <div className="main-content-container animate-fade-in">
                     <div className="decorator-line"></div>
                     <h1 className="main-title">ABOUT ME</h1>
-                    
+
                     <div className="main-description">
                         <p>
-                            I am a Backend Software Engineer based in Kolkata, West Bengal, specializing in building high-performance, scalable systems.
+                            I am a Software Developer based in Kolkata, specializing in backend architecture. I leverage <strong>Go</strong> and <strong>Java</strong> to engineer high-performance microservices, robust enterprise APIs, and scalable distributed systems.
                         </p>
                         <p>
-                            My current focus is on designing robust RESTful APIs and system architectures using <strong>Go</strong> and <strong>PostgreSQL</strong>. I also possess a strong foundation in enterprise software development, having previously worked extensively with <strong>Java</strong> and <strong>Spring Boot</strong>.
+                            In my professional experience, I take end-to-end ownership of complex applications. Whether it's architecting a secure, HIPAA-compliant telehealth platform with sub-millisecond response times or managing 500,000+ daily data transactions using <strong>Redis</strong> and <strong>PostgreSQL</strong>, my focus is on building resilient architectures. My core expertise lies in Domain-Driven Design, concurrency, asynchronous batch processing, and database query optimization.
                         </p>
                         <p>
-                            Beyond writing clean and efficient code, I bring strong problem-solving capabilities and a collaborative mindset to every project. I am driven by a continuous desire to learn new technologies, optimize existing systems, and build software that creates real-world impact.
+                            Beyond writing clean and efficient code, my goal is to engineer solutions that deliver real-world impact. By integrating modern DevOps workflows with <strong>Docker</strong> and adopting AI-driven tooling, I consistently ship optimized, predictable features. I am driven by a continuous desire to tackle complex technical challenges and build the reliable foundational engines that power modern software.
                         </p>
                     </div>
                 </div>

@@ -33,6 +33,7 @@ a {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -78,25 +79,35 @@ a {
     border-radius: 4px;
 }
 
+[data-theme='dark'] .main-description strong {
+    background: linear-gradient(120deg, rgba(76, 175, 80, 0.25) 0%, rgba(33, 150, 243, 0.25) 100%);
+    color: #ffffff;
+}
+
 @media (min-width: 640px) {
+
     .header,
     .main-content,
     .footer {
         padding-left: 3rem;
         padding-right: 3rem;
     }
+
     .navigation {
         gap: 2.5rem;
     }
+
     .main-title {
         font-size: 3rem;
     }
+
     .main-description {
         font-size: 1.125rem;
     }
 }
 
 @media (min-width: 768px) {
+
     .header,
     .main-content,
     .footer {

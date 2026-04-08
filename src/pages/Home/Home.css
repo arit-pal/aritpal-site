@@ -78,6 +78,19 @@ a {
     color: var(--text-secondary);
 }
 
+.main-subheadline strong {
+    font-weight: 600;
+    color: var(--text-primary);
+    background: linear-gradient(120deg, rgba(76, 175, 80, 0.15) 0%, rgba(33, 150, 243, 0.15) 100%);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+[data-theme='dark'] .main-subheadline strong {
+    background: linear-gradient(120deg, rgba(76, 175, 80, 0.25) 0%, rgba(33, 150, 243, 0.25) 100%);
+    color: #ffffff;
+}
+
 .cta-group {
     display: flex;
     flex-direction: column;

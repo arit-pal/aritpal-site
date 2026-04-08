@@ -14,10 +14,10 @@ const Home = () => {
                 <div className="home-main-content-container animate-fade-in">
                     <p className="micro-greeting">Hi, I'm Arit Pal</p>
                     <h1 className="main-headline">
-                        Software Engineer Specializing in <span className="gradient-text">Backend Development</span>
+                        Software Developer Specializing in <span className="gradient-text">Backend Systems</span>
                     </h1>
                     <p className="main-subheadline">
-                        I architect robust, scalable systems that power dynamic applications. With a strong focus on Go and PostgreSQL, I build the high-performance engines that drive the modern web.
+                        I engineer high-performance microservices and secure, scalable distributed systems using <strong>Go</strong> and <strong>Java</strong>. Focused on Domain-Driven Design, API optimization, and managing large-scale data to build robust enterprise applications.
                     </p>
                     <div className="cta-group">
                         <Link to="/about" className="cta-button">
